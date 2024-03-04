@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<title>Symmetric HTML</title>
+<style>
+    body {
+        background-image: url('https://hoanghamobile.com/tin-tuc/wp-content/webp-express/webp-images/uploads/2023/08/hinh-nen-bau-troi-dem-1.jpeg.webp');
+        backeground-size: cover;
+        background-position: center;
+        margin: 0; 
+        padding: 0; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh;
+        text-align: center; 
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        margin: auto; 
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        width: 190%;
+        margin-bottom: 20px;
+    }
+
+    .chu {
+        flex: 1;
+        font-size: 36px;
+        color: yellow; 
+    }
+
+    .number {
+      flex: 1;
+        font-size: 36px;
+        color: white; 
+    }
+
+    .row span:not(:last-child) {
+        margin-right: 45px; 
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <span class="chu">👧</span>
+        <span class="chu">🏠</span>
+        <span class="chu">💡</span>
+        <span class="chu">🌎</span>
+    </div>
+    <div class="row span 2">
+        <span class="number">20000</span>
+        <span class="number">92%</span>
+        <span class="number">586</span>
+        <span class="number">18</span>
+    </div>
+    <div class="row">
+        <span class="chu">Sinh viên theo học</span>
+        <span class="chu">Sinh viên làm đúng việc</span>
+        <span class="chu">Bài báo khoa học</span>
+        <span class="chu">Giải thưởng quốc tế</span>
+    </div>
+</div>
+</body>
+</html>
